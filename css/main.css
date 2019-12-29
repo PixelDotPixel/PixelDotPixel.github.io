@@ -1,0 +1,187 @@
+a {
+    font-family: "Bevan";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #64553f;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: "Bevan";
+    font-size: 22px;
+    font-weight: 400;
+    color: orange;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(Images/Wood-2.1G.png);
+    background-size:100% 180%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.Banner {
+    display: flex;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+    width: 740px;
+}
+
+.BannerWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;   
+}
+
+.Home-shadow {
+    display: block;
+    background-color: aqua;    
+}
+
+.Inline-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: inherit;
+    height: 240px;
+    align-content: center;
+    background-image: url(Images/linksbg.png);
+    padding-bottom: 60px;
+}
+
+.Linkblock {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    justify-content: space-around;
+    background-size: cover;
+    text-align: center;
+}
+
+.Linkblock-Subbanner {
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: space-around;
+    background-size: cover;
+    text-align: center;
+}
+
+.OFF {
+    display: none;
+}
+
+.ON {
+    display: block;
+}
+
+.Font {
+    font-family: "Bevan";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    text-wrap: wrap !important; 
+    white-space: nowrap;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
+.slideContainer {
+    display: flex;
+    padding-bottom: 10px;
+    background-image: url(Images/linksbg.png);
+}
+
+.slideL {
+    width: 200px;
+    height: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-content: center top;
+    background-image: url(Images/PolaroidPC2.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-origin: content-box;
+    background-position: 50% 30%;
+}
+
+.slideR {
+    width: 200px;
+    height: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-content: center top;
+    background-image: url(Images/PolaroidPC2.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-origin: content-box;
+    background-position: 50% 30%;
+}
+
+.Subbanner {
+    display:flex;
+    text-wrap: wrap !important;
+    color: #ffea95;
+    padding-left: 172px;
+    padding-right: 172px;
+    background-image: url(Images/Subbanner.png);
+    background-attachment: fixed;
+}
+
+.Facebook {
+    font-family: "Bevan";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 43px;
+    color: rgba(60,89,152,1) !important;
+    background-color: black;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    text-transform: none;
+    text-decoration: none;
+}
+
+.Facebook:hover {
+    text-transform: none !important;
+}
+
+/*.slide{
+    width: 200px;
+    height: 200px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+    align-content: center top;
+    
+    background-image: url(Images/PolaroidPC2.png);
+    background-repeat: no-repeat;
+    background-size: 264px;
+    background-origin: content-box;
+    background-position: 50% 30%;
+
+} */
