@@ -25,8 +25,11 @@ a:active {
 
 body {
     background-image: url(https://raw.githubusercontent.com/PixelDotPixel/PixelDotPixel.github.io/master/Images/Wood-2.1G.png);
-    background-size:100% 180%;
+    background-size:100% 1000px;
     background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: top;
+    background-attachment: fixed;
     background-color: black;
 }
 
